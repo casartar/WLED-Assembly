@@ -1,26 +1,34 @@
 # WLED-Config
 
-Nach dem Einschalten des ESP erscheint ein Access-Point mit dem Namen "WLED-AP". Verbinden!
+## Vorbereitung
 
-![](Bilder/Screenshot_20210623-214006.jpg)
+Lade dir die WLED-APP von Aircookie herunter.
 
-Normalerweise wirst du nach dem Verbinden direkt auf die WLED Konfigurationsseite umgeleitet. Wenn das nicht funktioniert, musst du im Browser die IP-Adresse "4.3.2.1" eingeben.
+* [Playstore](https://play.google.com/store/apps/details?id=com.aircoookie.WLED&hl=de&gl=US) mit widerlichem Google
+* [GitHub](https://github.com/Aircoookie/WLED-App/releases) ohne widerliches Google
+
+## Konfiguration
+
+### Smartphone mit WLED-AP verbinden
+
+Der frisch geflashte und unkonfigurierte Controller (ESP8266) strahlt nach dem Einschalten ein WLAN aus Namens "WLED-AP". Verbinde dich damit und klicke auf "Im Netzwerk anmelden"!
+
+<img src="Bilder/Screenshot_20210623-214006.jpg" width=50% height=50%>
+
+Normalerweise wirst du nach dem Verbinden mit dem WLAN direkt auf die WLED Konfigurationsseite umgeleitet (Captive Portal). Wenn das nicht funktioniert, musst du im Browser die IP-Adresse "4.3.2.1" ansurfen.
+
+Hier kannst du WLED ins heimische WLAN integrieren, oder direkt steuern:
+
+<img src="Bilder/Screenshot_20210623-214020.jpg" width=50% height=50%>
 
 Drücke "WIFI SETTINGS".
 
-![](Bilder/Screenshot_20210623-214020.jpg)
+### WLED mit heimischem WLAN verbinden
 
-Gib hier die Zugangsdaten für dein heimeisches IoT WLAN an ;) .
-SSID und Passwort reicht.
+Gib hier die Zugangsdaten für dein heimisches IoT WLAN an ;) (SSID und Passwort reicht).
 
-Drücke "Save & Connect"
+Drücke danach "Save & Connect"
 
-![](Bilder/Screenshot_20210623-214031.jpg)
+<img src="Bilder/Screenshot_20210623-214031.jpg" width=50% height=50%>
 
-Jetzt musst du dich wieder mit deinem heimischen WLAN verbinden und die WLED-APP herunterladen.
-
-[Playstore](https://play.google.com/store/apps/details?id=com.aircoookie.WLED&hl=de&gl=US)
-
-[GitHub](https://github.com/Aircoookie/WLED-App/releases) ohne widerliches Google
-
-
+Der WLED Controller bootet nun und verbindet sich danach mit deinem heimischen WLAN.
