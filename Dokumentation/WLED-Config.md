@@ -2,7 +2,7 @@
 
 ## Vorbereitung
 
-Lade dir die WLED-APP von Aircookie herunter.
+Lade dir die WLED-APP von Aircookie herunter, die brauchst du später.
 
 * [Playstore](https://play.google.com/store/apps/details?id=com.aircoookie.WLED&hl=de&gl=US) mit widerlichem Google
 * [GitHub](https://github.com/Aircoookie/WLED-App/releases) ohne widerliches Google
@@ -11,7 +11,7 @@ Lade dir die WLED-APP von Aircookie herunter.
 
 ### Smartphone mit WLED-AP verbinden
 
-Der frisch geflashte und unkonfigurierte Controller (ESP8266) strahlt nach dem Einschalten ein WLAN aus Namens "WLED-AP". Verbinde dich damit und klicke auf "Im Netzwerk anmelden"!
+Der frisch geflashte und unkonfigurierte WLED-Controller sollte nach dem Einschalten ein paar der LEDs orange machen und ein WLAN Namens "WLED-AP" aufmachen. Verbinde dich damit und klicke auf "Im Netzwerk anmelden"!
 
 <img src="Bilder/Screenshot_20210623-214006.jpg" width=50% height=50%>
 
@@ -31,4 +31,28 @@ Drücke danach "Save & Connect"
 
 <img src="Bilder/Screenshot_20210623-214031.jpg" width=50% height=50%>
 
-Der WLED Controller bootet nun und verbindet sich danach mit deinem heimischen WLAN.
+Der WLED Controller bootet und verbindet sich danach mit deinem heimischen WLAN.
+
+Verbinde dein Smartphone mit deinem heimischen WLAN (wenn es das nicht schon selbst gemacht hat)!
+
+### WLED Konfigurieren und Steuern
+
+Starte die WLED App und drücke das "+" Symbol oben rechts
+
+<img src="Bilder/WLED_App.jpg" width=50% height=50%>
+
+Drücke "Discover Lights"
+
+<img src="Bilder/WLED_App_Add.jpg" width=50% height=50%>
+
+Wenn dein WLED gefunden wurde, dann drücke den Haken rechts oben. Wenn nicht, dann hast du jetzt ein Problem.
+
+In der Übersicht aller WLED Devices wähle das neu gebaute aus und klicke drauf.
+
+Klicke auf "Config" --> "LED Preferences". Hier musst du bei "LED count" die Anzahl der angeschlossenen WS28xx LEDs eintragen.
+
+Bei "Color order" musst du die Farbreihenfolge der WS28xx einstellen:
+* WS2811: RGB
+* WS2812: GRB
+
+Drücke auf Save. Die LEDs sollten nun ALLE orange leuchten. Wenn dem nicht so ist, dann hast du jetzt schon wieder ein Problem.
