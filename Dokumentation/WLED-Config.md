@@ -39,17 +39,22 @@ Verbinde dein Smartphone mit deinem heimischen WLAN (wenn es das nicht schon sel
 
 Starte die WLED App und drücke das "+" Symbol oben rechts
 
-<img src="Bilder/WLED_App.jpg" width=50% height=50%>
+<img src="Bilder/Screenshot_20210714-184125.jpg" width=50% height=50%>
 
 Drücke "Discover Lights"
 
-<img src="Bilder/WLED_App_Add.jpg" width=50% height=50%>
+<img src="Bilder/Screenshot_20210714-184137.jpg" width=50% height=50%>
+<img src="Bilder/Screenshot_20210714-184201.jpg" width=50% height=50%>
 
 Wenn dein WLED gefunden wurde, dann drücke den Haken rechts oben. Wenn nicht, dann hast du jetzt ein Problem.
 
-In der Übersicht aller WLED Devices wähle das neu gebaute aus und klicke drauf.
+In der Übersicht aller WLED Devices klicke auf das neu gebaute druff.
+
+<img src="Bilder/Screenshot_20210714-184209.jpg" width=50% height=50%>
 
 Klicke auf "Config" --> "LED Preferences". Hier musst du bei "LED count" die Anzahl der angeschlossenen WS28xx LEDs eintragen.
+
+<img src="Bilder/Screenshot_20210714-184220.jpg" width=50% height=50%>
 
 Bei "Color order" musst du die Farbreihenfolge der WS28xx einstellen:
 * WS2811: RGB
