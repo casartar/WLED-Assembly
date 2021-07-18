@@ -56,11 +56,15 @@ Klicke auf "Config"
 
 <img src="Bilder/Screenshot_20210714-184220.jpg" width=50% height=50%>
 
- Klicke auf "LED Preferences".
+Klicke auf "LED Preferences".
+
+<img src="Bilder/Screenshot_20210718-203339.jpg" width=50% height=50%>
 
 * Hier musst du bei "LED count" die Anzahl der angeschlossenen WS28xx LEDs eintragen.
 * Bei "Color order" musst du die Farbreihenfolge der WS28xx einstellen:
   * WS2811: RGB
   * WS2812: GRB
+
+<img src="Bilder/Screenshot_20210718-203415.jpg" width=50% height=50%>
 
 Drücke auf Save. Die LEDs sollten nun ALLE orange leuchten. Wenn dem nicht so ist, dann hast du jetzt schon wieder ein Problem.
