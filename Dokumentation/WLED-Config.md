@@ -52,12 +52,15 @@ In der Übersicht aller WLED Devices klicke auf das neu gebaute druff.
 
 <img src="Bilder/Screenshot_20210714-184209.jpg" width=50% height=50%>
 
-Klicke auf "Config" --> "LED Preferences". Hier musst du bei "LED count" die Anzahl der angeschlossenen WS28xx LEDs eintragen.
+Klicke auf "Config"
 
 <img src="Bilder/Screenshot_20210714-184220.jpg" width=50% height=50%>
 
-Bei "Color order" musst du die Farbreihenfolge der WS28xx einstellen:
-* WS2811: RGB
-* WS2812: GRB
+ Klicke auf "LED Preferences".
+
+* Hier musst du bei "LED count" die Anzahl der angeschlossenen WS28xx LEDs eintragen.
+* Bei "Color order" musst du die Farbreihenfolge der WS28xx einstellen:
+  * WS2811: RGB
+  * WS2812: GRB
 
 Drücke auf Save. Die LEDs sollten nun ALLE orange leuchten. Wenn dem nicht so ist, dann hast du jetzt schon wieder ein Problem.
