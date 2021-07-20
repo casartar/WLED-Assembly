@@ -2,7 +2,7 @@
 ## Bausatz
 
 1. Gehäuse mit Deckel
-2. Inbus Zylinderkopfschrauben M3 5mm
+2. Inbus Zylinderkopfschrauben M3 5 mm
 3. Verbindungsleitungen Schwarz, Rot 4,5 cm
 4. Hohlsteckerbuchse mit Schraubklemme
 5. WEMOS D1 mini
@@ -25,7 +25,7 @@
 
 ## Anleitung Zusammenbau
 
-Am Anschlusskabel mit Buchse die rote und die weiße Leitung um 1 cm kürzen, abisolieren und verzinnen.
+Am Anschlusskabel mit Stecker die rote und die weiße Leitung um 1 cm kürzen, abisolieren und verzinnen.
 
 ![](Bilder/IMG_20210708_200851.jpg)
 
@@ -49,7 +49,7 @@ Deckel drauf und verschrauben.
 
 ![](Bilder/IMG_20210708_201715.jpg)
 
-Nun das Anschlusskabel mit Stecker an die LED-Stripes löten.
+Nun das Anschlusskabel mit Buchse an die LED-Stripes löten.
 Weiß an GND, Grün an Din und Rot an +5V.
 
 ![](Bilder/IMG_20210623_211219.jpg)
