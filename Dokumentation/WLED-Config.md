@@ -6,6 +6,7 @@ Lade dir die WLED-APP von Aircookie herunter, die brauchst du später.
 
 * [Playstore](https://play.google.com/store/apps/details?id=com.aircoookie.WLED&hl=de&gl=US) mit widerlichem Google
 * [GitHub](https://github.com/Aircoookie/WLED-App/releases) ohne widerliches Google
+* [Appstore](https://apps.apple.com/de/app/wled/id1475695033?l=en) mit widerlichem Apple
 
 ## Konfiguration
 
