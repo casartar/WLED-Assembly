@@ -32,7 +32,10 @@ Warten.
 
 <img src="Bilder/Screenshot_20230205_175527.png" width=50% height=50%>
 
-ALTERNATIVE:
+
+
+
+## ALTERNATIVE Methode
 
  1. Runterladen der Firmware:
 
@@ -49,8 +52,23 @@ ALTERNATIVE:
 [ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases)
 
 
-So jetzt das Tool öffnen:
+3. So jetzt das Tool öffnen ( am Beispiel vom ESPHome Flasher):
 
+![ESP Home FLasher](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.47.09.jpg)
 
+4. Den richtigen Serial Port auswählen:
+![ausgewählter Serial Port](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.57.58.jpg)
 
- 
+5. Dann das runtergeladene Firmware-File auswählen ( Browse klicken)
+
+![Select Firmware File](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.48.16.jpg)
+
+6. Dann auf "Flash ESP" klicken:
+
+![Alles selektiert](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.54.48.jpg)
+
+7. Dann sollte es  gleich so aussehen:
+
+![Fertig](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.55.20.jpg)
+
+FERTIG :)
