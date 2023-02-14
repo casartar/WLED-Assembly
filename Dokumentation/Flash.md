@@ -32,6 +32,25 @@ Warten.
 
 <img src="Bilder/Screenshot_20230205_175527.png" width=50% height=50%>
 
+ALTERNATIVE:
+
+ 1. Runterladen der Firmware:
+
+[Binary für Wemos D1 mini](https://github.com/Aircoookie/WLED/releases/download/v0.14.0-b1/WLED_0.14.0-b1_ESP01.bin)
+
+[Sonstige](https://github.com/Aircoookie/WLED/releases)
+
+
+
+ 2. Runterladen eines der Flash tools:
+
+[Tasmotizer (Windows)](https://github.com/tasmota/tasmotizer/releases)
+
+[ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases)
+
+
+So jetzt das Tool öffnen:
+
 
 
  
