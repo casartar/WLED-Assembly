@@ -34,4 +34,41 @@ Warten.
 
 
 
- 
+
+## ALTERNATIVE Methode
+
+ 1. Runterladen der Firmware:
+
+[Binary für Wemos D1 mini](https://github.com/Aircoookie/WLED/releases/download/v0.14.0-b1/WLED_0.14.0-b1_ESP01.bin)
+
+[Sonstige](https://github.com/Aircoookie/WLED/releases)
+
+
+
+ 2. Runterladen eines der Flash tools:
+
+[Tasmotizer (Windows)](https://github.com/tasmota/tasmotizer/releases)
+
+[ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases)
+
+
+3. So jetzt das Tool öffnen ( am Beispiel vom ESPHome Flasher):
+
+![ESP Home FLasher](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.47.09.jpg)
+
+4. Den richtigen Serial Port auswählen:
+![ausgewählter Serial Port](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.57.58.jpg)
+
+5. Dann das runtergeladene Firmware-File auswählen ( Browse klicken)
+
+![Select Firmware File](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.48.16.jpg)
+
+6. Dann auf "Flash ESP" klicken:
+
+![Alles selektiert](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.54.48.jpg)
+
+7. Dann sollte es  gleich so aussehen:
+
+![Fertig](Bilder/Bildschirm%C2%ADfoto%202023-02-14%20um%2021.55.20.jpg)
+
+FERTIG :)
